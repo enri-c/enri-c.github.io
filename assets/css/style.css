@@ -1149,7 +1149,9 @@ blockquote {
 }
 
 .credits {
-  font-size: 13px;
+  font-size: 12px;
+  opacity: .5;
+  text-align: center;
 }
 
 /** Width between 1200x to 0
