@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #ffffff;
+  background-color: transparent;
   color: #898989;
   font-family: "Poppins", helvetica;
   font-size: 15px;
@@ -567,7 +567,7 @@ p {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
+  background-color: transparent;
   padding-top: 120px;
 }
 
@@ -576,13 +576,15 @@ p {
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
   margin-top: -60px;
   margin-left: 40px;
-  height: 400px;
+
   -o-object-fit: cover;
   object-fit: cover;
+  background-color: transparent;
 }
 
 #about .about-descr .p-heading {
   font-family: "DM Serif Display";
+  margin-top: -1em;
   font-size: 2em;
   color: #292929;
   text-align: left;
@@ -591,17 +593,21 @@ p {
 #about .about-descr .separator {
   font-family: "DM Sans";
   font-size: 1em;
+  margin-bottom: 5em;
   max-width: 80%;
-  margin-bottom: 0;
   text-align: left;
   color: #2b2e3a;
 }
 
+
+#about li {
+  color: black;
+  line-height: 0.5em;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 #services {
-  background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
 }
@@ -997,7 +1003,7 @@ p {
 }
 
 .container-main .block-main .content-main {
-  background: #fff none repeat scroll 0 0;
+  background: transparent none repeat scroll 0 0;
   display: inline-block;
   width: 100%;
 }
@@ -1293,6 +1299,7 @@ blockquote {
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
+    background-color: transparent;
   }
 
   #about .about-descr .p-heading {
@@ -1376,6 +1383,7 @@ blockquote {
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
+    background-color: transparent;
   }
 
   #about .about-descr .p-heading {
@@ -1541,6 +1549,7 @@ blockquote {
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
+    background-color: transparent;
   }
 
   #about .about-descr .p-heading {
